@@ -10,24 +10,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-dark text-white">
-    <header class="container text-center py-5">
+    <!-- Cabeçalho -->
+    <header class="container text-center py-5 border-bottom">
         <h1>Curiosidades sobre Python</h1>
-        <p>Descubra fatos interessantes sobre a linguagem de programação Python</p>
+        <p class="lead">Descubra fatos interessantes sobre a linguagem de programação Python</p>
     </header>
 
-    <main class="container">
-        <section>
-            <h2>Curiosidades</h2>
-            <ul class="list-group">
-                <li class="list-group-item bg-dark text-white">Python foi lançado em 1991 por Guido van Rossum.</li>
-                <li class="list-group-item bg-dark text-white">O nome Python foi inspirado no grupo de comédia britânico "Monty Python".</li>
-                <li class="list-group-item bg-dark text-white">É uma das linguagens mais populares do mundo.</li>
-                <li class="list-group-item bg-dark text-white">Python é frequentemente usado em ciência de dados e inteligência artificial.</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Seção: Introdução -->
+    <section id="introducao" class="container py-5">
+        <h2 class="text-center text-warning">Introdução</h2>
+        <p class="text-center">Python é uma das linguagens mais populares do mundo e é amplamente utilizada em diversas áreas como ciência de dados, inteligência artificial, desenvolvimento web e muito mais.</p>
+    </section>
 
-    <footer class="text-center py-4">
+    <!-- Seção: Tabela de Curiosidades -->
+    <section id="curiosidades" class="container py-5">
+        <h2 class="text-center text-warning">Tabela de Curiosidades</h2>
+        <div class="table-responsive">
+            <table class="table table-dark table-hover table-bordered mt-4">
+                <thead>
+                    <tr class="text-warning">
+                        <th scope="col">Curiosidade</th>
+                        <th scope="col">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ano de Lançamento</td>
+                        <td>Python foi lançado em 1991 por Guido van Rossum.</td>
+                    </tr>
+                    <tr>
+                        <td>Origem do Nome</td>
+                        <td>O nome Python foi inspirado no grupo de comédia britânico "Monty Python".</td>
+                    </tr>
+                    <tr>
+                        <td>Popularidade</td>
+                        <td>É uma das linguagens de programação mais populares do mundo.</td>
+                    </tr>
+                    <tr>
+                        <td>Uso em IA</td>
+                        <td>Python é frequentemente usado em ciência de dados e inteligência artificial.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Seção: Benefícios do Python -->
+    <section id="beneficios" class="container py-5">
+        <h2 class="text-center text-warning">Benefícios do Python</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark text-white">Sintaxe simples e fácil de aprender</li>
+            <li class="list-group-item bg-dark text-white">Grande comunidade de suporte</li>
+            <li class="list-group-item bg-dark text-white">Ampla biblioteca de módulos e frameworks</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 border-top">
         <p>&copy; 2024 - Site de Curiosidades sobre Python</p>
     </footer>
 
