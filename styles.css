@@ -37,8 +37,3 @@ section {
     background-color: #343a40 !important;
     border-radius: 10px; /* Adiciona bordas arredondadas às seções com fundo secundário */
 }
-
-#beneficios {
-    margin-top: 40px; /* Espaçamento superior */
-    margin-bottom: 40px; /* Espaçamento inferior */
-}
